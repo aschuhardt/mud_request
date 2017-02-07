@@ -1,0 +1,8 @@
+[package]
+name = "mud_request"
+version = "0.1.0"
+authors = ["Addison Schuhardt <a@schuhardt.net>"]
+
+[dependencies]
+rustc-serialize = "0.3"
+uuid = { version = "0.2", features = ["rustc-serialize", "v4", "v5"] }
